@@ -24,9 +24,10 @@ body {
 .top{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: start;
     padding-bottom: 30px;
+    padding-right: 150px;
 }
 
 .text{
@@ -50,7 +51,7 @@ body {
     align-items: center;
     background: rgb(31, 29, 29);
     color: beige;
-    border: 8px solid #2d3238;
+    border: 6px solid #2d3238;
     width: 90%;
     height: 70%;
     border-radius: 10px;
