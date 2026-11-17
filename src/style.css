@@ -59,6 +59,7 @@ body {
 }
 
 .bottom{
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,6 +70,7 @@ body {
     height: 70%;
     border-radius: 10px;
     box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 10px 25px rgba(0,0,0,0.5);
+    gap: 20px;
 }
 
 
@@ -134,4 +136,9 @@ input:hover{
 .sobre, .sobre th, .sobre td{
     border: solid 2px white;
     border-collapse: collapse;
+}
+
+.texto{
+    width: 100%;
+    text-align: center;
 }
