@@ -10,7 +10,6 @@ body {
 
 .search-screen {
     display: flex;
-    justify-content: center;
     align-items: center;
     background: #eef5e7;
     color: #1a2213;
@@ -19,6 +18,7 @@ body {
     height: 30px;
     border-radius: 10px;
     box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 10px 25px rgba(0,0,0,0.5);
+    padding-inline: 10px;
 }
 
 .top{
@@ -70,6 +70,32 @@ body {
     border-radius: 10px;
     box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 10px 25px rgba(0,0,0,0.5);
 }
+
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(31, 29, 29);
+    color: rgb(0, 184, 40);
+    border: 2px solid #919191;
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.buscar:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(133, 133, 133);
+    color: rgb(0, 184, 40);
+    border: 2px solid #000000;
+    border-radius: 5px;
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 10px 25px rgba(0,0,0,0.5);
+    transform: scale(1.02);
+}
+
 button{
     display: flex;
     justify-content: center;
@@ -81,7 +107,6 @@ button{
     height: 70%;
     border-radius: 5px;
     box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 10px 25px rgba(0,0,0,0.5);
-    
 }
 
 button:hover{
@@ -95,4 +120,5 @@ button:hover{
     height: 70%;
     border-radius: 5px;
     box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 10px 25px rgba(0,0,0,0.5);
+    transform: scale(1.05);
 }
