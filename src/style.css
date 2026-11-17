@@ -71,54 +71,34 @@ body {
     box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 10px 25px rgba(0,0,0,0.5);
 }
 
-.buscar{
+
+button{
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgb(31, 29, 29);
     color: rgb(0, 184, 40);
     border: 2px solid #919191;
-    width: 90%;
+    width: 100%;
     height: 70%;
     border-radius: 5px;
     box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 10px 25px rgba(0,0,0,0.5);
 }
 
-.buscar:hover{
+button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgb(133, 133, 133);
     color: rgb(0, 184, 40);
     border: 2px solid #000000;
+    width: 100%;
+    height: 70%;
     border-radius: 5px;
     box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 10px 25px rgba(0,0,0,0.5);
     transform: scale(1.02);
 }
-
-.boton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(31, 29, 29);
-    color: rgb(0, 184, 40);
-    border: 2px solid #919191;
+a{
     width: 90%;
     height: 70%;
-    border-radius: 5px;
-    box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 10px 25px rgba(0,0,0,0.5);
-}
-
-.boton:hover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(133, 133, 133);
-    color: rgb(0, 184, 40);
-    border: 2px solid #000000;
-    width: 90%;
-    height: 70%;
-    border-radius: 5px;
-    box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 10px 25px rgba(0,0,0,0.5);
-    transform: scale(1.05);
 }
